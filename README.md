@@ -36,8 +36,8 @@ or
 ```
 
 Note that because Browserify is used in a CommonJS setup where bare
-compilation is the norm, this transform MAKES THE DEFAULT VALUE OF THE `bare`
-OPTION `true`. All other options are simply passed along to LiveScript, so
+compilation is the norm, this transform **makes the default value of the `bare`
+option `true`**. All other options are simply passed along to LiveScript, so
 the default values remain the same as they are there.
 
 [livescript]: http://livescript.net/
