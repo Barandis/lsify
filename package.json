@@ -31,5 +31,6 @@
     "type": "git",
     "url": "http://github.com/Barandis/lsify.git"
   },
+  "bugs": "https://github.com/Barandis/lsify/issues",
   "license": "MIT"
 }
