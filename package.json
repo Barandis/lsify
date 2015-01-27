@@ -1,0 +1,24 @@
+{
+  "name": "lsify",
+  "version": "0.1.0",
+  "description": "LiveScript transform for Browserify",
+  "main": "lsify.js",
+  "dependencies": {
+    "LiveScript": "~1.3.1",
+    "through": "~2.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LiveScript",
+    "browserify",
+    "transform",
+    "ls"
+  ],
+  "author": {
+    "name": "Thomas J. Otterson",
+    "email": "barandis1729@gmail.com"
+  },
+  "license": "MIT"
+}
