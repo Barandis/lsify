@@ -2,6 +2,8 @@ LSIFY
 =====
 *LiveScript transform for Browserify*
 
+[![Build Status](https://travis-ci.org/Barandis/lsify.svg?branch=master)](https://travis-ci.org/Barandis/lsify)
+
 Lsify lets you write [LiveScript][livescript] and have [Browserify][browserify] 
 automatically compile it into JavaScript. This means that JavaScript and 
 LiveScript can be mixed in the same project arbitrarily; Browserify will 
