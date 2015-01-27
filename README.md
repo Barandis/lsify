@@ -16,13 +16,13 @@ test = require('./test.ls');
 ```
 
 Options can be passed through to the LiveScript compiler either through the
-API or through package.json.
+API:
 
 ```javascript
 bundle.transform(require("lsify"), { header: false, const: true });
 ```
 
-or
+or through package.json:
 
 ```javascript
 {
