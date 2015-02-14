@@ -15,7 +15,7 @@ function testPath(filename) {
 }
 
 function makeBundle(lsFile, options, noTransform) {
-  var bundle = browserify()
+  var bundle = browserify();
   if (!noTransform) bundle = bundle.transform(lsify, options);
   return bundle.add(testPath(lsFile)).bundle();
 }
