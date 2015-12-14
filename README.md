@@ -6,14 +6,15 @@ LSIFY
 
 Lsify lets you write [LiveScript][livescript] and have [Browserify][browserify] 
 automatically compile it into JavaScript. This means that JavaScript and 
-LiveScript can be mixed in the same project arbitrarily; Browserify will 
-compile the LiveScript and leave the JavaScript alone.
+LiveScript can be mixed in the same project arbitrarily; lsify will cause
+Browserify to compile the LiveScript, which will then be bundled as JavaScript
+along with any other JavaScript files needed for the bundle.
 
 For this to work properly, LiveScript files must have an extension of ".ls"
 (which they do anyway for LiveScript to compile them) and must be required
 with this extension:
 
-```javajcript
+```javascript
 test = require('./test.ls');
 ```
 
