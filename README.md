@@ -42,5 +42,16 @@ compilation is the norm, this transform **makes the default value of the `bare`
 option `true`**. All other options are simply passed along to LiveScript, so
 the default values remain the same as they are there.
 
+Changes
+-------
+
+**0.2.0**
+
+* Fixed LiveScript require to use all lower-case. This was needed because LiveScript 1.4.0 changed its package name
+  to be all lower-case. While this is probably the way it should be, it does mean that lsify now requires
+  LiveScript 1.4.0+.
+* Removed peer dependencies. The changes recently made in Node itself make them unnecessary.
+* Updated CI config to test against Node up to version 4.1.
+
 [livescript]: http://livescript.net/
 [browserify]: http://browserify.org/
