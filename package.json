@@ -1,6 +1,6 @@
 {
   "name": "lsify",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "LiveScript transform for Browserify",
   "main": "lib/lsify.js",
   "dependencies": {
