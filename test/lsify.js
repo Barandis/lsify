@@ -69,4 +69,8 @@ describe("lsify", function() {
   it("compiles LS dependencies correctly", function(done) {
     matchTest('depends', done);
   });
+
+  // TODO: test source map generation. This is trickier than it seems and needs to wait for another day to
+  // work out. However, I've tested the generated source maps in the test/tests/(debug|map) folders and 
+  // found them to work correctly.
 });
