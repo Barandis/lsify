@@ -64,9 +64,9 @@ want source maps generated and embedded.
 In the LiveScript compiler, the default is `"none"`, meaning that no source maps are generated. However, in Browserify,
 a specific option (`debug`) is set to indicate that source maps are wanted. If this option is not set, the bundling
 process eliminates comments (and therefore any already-embedded source maps) anyway. So rather than having to set *two*
-options (one on Browserify and one on lsify) to do source mapping, lsify defaults `map` to `true`. Therefore turning on
-Browserify's `debug` will by default generate LiveScript source maps, while turning `debug` off will make those source
-maps be ignored. Which is probably how we want it.
+options (one on Browserify and one on lsify) to do source mapping, **lsify defaults `map` to `true`.** Therefore 
+turning on Browserify's `debug` will by default generate LiveScript source maps, while turning `debug` off will make 
+those source maps be ignored. Which is probably how we want it.
 
 Embeddeding source maps allows JavaScript debugging tools (including the Chrome debugger and Firebug) to display the
 original LiveScript code and to translate locations, breakpoints, etc. back to the original source. Essentially it lets
